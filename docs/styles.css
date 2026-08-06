@@ -1,0 +1,353 @@
+/* ==========================================
+   CORES E TIPOGRAFIA
+   ========================================== */
+:root {
+  --preto: #111111;
+  --branco: #F7F4EE;
+  --vermelho: #D83A2E;
+  --azul: #2458D3;
+  --amarelo: #F2BE22;
+  --verde: #3C8C63;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--branco);
+  color: var(--preto);
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, .titulo-grande {
+  font-family: 'Futura PT', 'League Spartan', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 0;
+}
+h2 {
+  font-size: 3.5rem;
+  margin: 0 0 1rem 0;
+}
+h3 {
+  font-size: 2rem;
+}
+
+/* ==========================================
+   LAYOUT ASSIMÉTRICO (GRID)
+   ========================================== */
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.container-grid .bloco-deslocado {
+  transform: translateX(10%);
+}
+
+/* Hero – página inicial e outras */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 80vh;
+  padding: 4rem 6rem;
+  background: var(--branco);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero h1 {
+  font-size: 8rem;
+  line-height: 0.85;
+  margin: 0;
+}
+.hero .sub {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-top: -0.5rem;
+  color: var(--azul);
+}
+.hero .destaque {
+  color: var(--vermelho);
+}
+
+/* ==========================================
+   MENU (navbar minimalista)
+   ========================================== */
+.navbar {
+  background: transparent !important;
+  border-bottom: none !important;
+  padding: 1.5rem 2rem !important;
+  position: relative;
+  z-index: 10;
+}
+
+.navbar .navbar-brand {
+  font-family: 'Futura PT', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--preto) !important;
+  letter-spacing: 0.05em;
+}
+
+.navbar .nav-link {
+  color: var(--preto) !important;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  padding: 0.5rem 0.8rem !important;
+  position: relative;
+  transition: color 0.2s;
+}
+
+.navbar .nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: var(--vermelho);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.navbar .nav-link:hover::after {
+  width: 10px;
+  height: 10px;
+}
+
+/* ==========================================
+   FORMAS GEOMÉTRICAS (pseudo-elementos)
+   ========================================== */
+.hero::before {
+  content: '○';
+  font-size: 14rem;
+  color: var(--vermelho);
+  position: absolute;
+  top: 5%;
+  right: 8%;
+  opacity: 0.25;
+  pointer-events: none;
+}
+.hero::after {
+  content: '▲';
+  font-size: 10rem;
+  color: var(--amarelo);
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+/* Formas fixas adicionais (podem ser usadas em qualquer página) */
+.forma-circulo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: var(--azul);
+  position: absolute;
+  opacity: 0.15;
+  pointer-events: none;
+}
+.forma-triangulo {
+  width: 0;
+  height: 0;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-bottom: 120px solid var(--amarelo);
+  position: absolute;
+  opacity: 0.2;
+  pointer-events: none;
+}
+.linha-diagonal {
+  position: absolute;
+  width: 300px;
+  height: 4px;
+  background: var(--preto);
+  transform: rotate(-12deg);
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+/* ==========================================
+   MOLDURAS GEOMÉTRICAS PARA IMAGENS
+   ========================================== */
+.moldura {
+  border: 4px solid var(--preto);
+  padding: 0.5rem;
+  background: var(--branco);
+  position: relative;
+  display: inline-block;
+}
+.moldura::before {
+  content: '□';
+  font-size: 3rem;
+  color: var(--vermelho);
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  opacity: 0.4;
+}
+.moldura img {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: grayscale(10%);
+}
+
+.moldura-com-circulo {
+  position: relative;
+  display: inline-block;
+}
+.moldura-com-circulo::after {
+  content: '';
+  width: 80px;
+  height: 80px;
+  background: var(--amarelo);
+  border-radius: 50%;
+  position: absolute;
+  bottom: -15px;
+  right: -15px;
+  mix-blend-mode: multiply;
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+/* ==========================================
+   ANIMAÇÕES
+   ========================================== */
+@keyframes deslizar {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(40px); }
+  100% { transform: translateX(0); }
+}
+@keyframes girar {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+@keyframes flutuar {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-25px); }
+  100% { transform: translateY(0); }
+}
+@keyframes aparecer {
+  0% { opacity: 0; transform: scale(0.8); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+.animacao-deslizar {
+  animation: deslizar 8s ease-in-out infinite;
+}
+.animacao-girar {
+  animation: girar 25s linear infinite;
+}
+.animacao-flutuar {
+  animation: flutuar 7s ease-in-out infinite;
+}
+.animacao-aparecer {
+  animation: aparecer 1.2s ease-out;
+}
+
+/* ==========================================
+   PÁGINAS ESPECÍFICAS (customização)
+   ========================================== */
+/* Teatro – fundo com círculo vermelho grande */
+.pagina-teatro .hero::before {
+  content: '●';
+  color: var(--vermelho);
+  font-size: 18rem;
+  top: 0;
+  right: 0;
+  opacity: 0.12;
+}
+.pagina-teatro .hero::after {
+  content: '⬡';
+  color: var(--azul);
+  font-size: 8rem;
+  bottom: 5%;
+  left: 10%;
+}
+
+/* Cinema – triângulo azul */
+.pagina-cinema .hero::before {
+  content: '▲';
+  color: var(--azul);
+  font-size: 16rem;
+  bottom: 0;
+  left: 0;
+  opacity: 0.15;
+}
+.pagina-cinema .hero::after {
+  content: '●';
+  color: var(--amarelo);
+  font-size: 10rem;
+  top: 15%;
+  right: 10%;
+}
+
+/* Ateliês – formas orgânicas (linhas) */
+.pagina-atelies .hero::before {
+  content: '╱╲';
+  font-size: 10rem;
+  color: var(--verde);
+  opacity: 0.2;
+  top: 20%;
+  right: 5%;
+  transform: rotate(10deg);
+}
+.pagina-atelies .hero::after {
+  content: '◉';
+  color: var(--vermelho);
+  font-size: 12rem;
+  bottom: 10%;
+  left: 8%;
+}
+
+/* Agenda – estilo cartaz */
+.pagina-agenda .hero {
+  min-height: 60vh;
+}
+.pagina-agenda .hero::before {
+  content: '▣';
+  color: var(--amarelo);
+  font-size: 15rem;
+  top: 10%;
+  right: 10%;
+  opacity: 0.2;
+}
+
+/* ==========================================
+   RESPONSIVIDADE
+   ========================================== */
+@media (max-width: 992px) {
+  .hero h1 { font-size: 5rem; }
+  .hero { padding: 3rem 2rem; }
+  .container-grid { grid-template-columns: 1fr; padding: 2rem 1rem; }
+  .container-grid .bloco-deslocado { transform: none; }
+}
+@media (max-width: 600px) {
+  .hero h1 { font-size: 3.5rem; }
+  .hero .sub { font-size: 1.5rem; }
+  .navbar .navbar-brand { font-size: 1.5rem; }
+}

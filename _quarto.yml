@@ -1,47 +1,47 @@
 project:
   type: website
-output-dir: _site
+  output-dir: docs
 
 website:
   title: "FLAU Cultural"
-site-url: https://damsantos.github.io/flau-cultural/
+  site-url: https://damsantos.github.io/flau-cultural/
   description: "Espaço cultural para teatro, cinema, artes e ateliês de cerâmica."
-navbar:
-  background: transparent
-left:
-  - text: "FLAU"
-href: index.qmd
-- text: "Teatro"
-href: teatro.qmd
-- text: "Cinema"
-href: cinema.qmd
-- text: "Ateliês"
-href: atelies.qmd
-- text: "Agenda"
-href: agenda.qmd
-- text: "Residências"
-href: residencias.qmd
-- text: "Galeria"
-href: galeria.qmd
-- text: "Contato"
-href: contato.qmd
-page-footer:
-  left: "FLAU Cultural · Rua das Artes, 123 · São Paulo"
-right: "Instagram @flau.cultural · contato@flau.art"
-background: transparent
-border: none
+  navbar:
+    background: transparent
+    left:
+      - text: "FLAU"
+        href: index.qmd
+      - text: "Teatro"
+        href: teatro.qmd
+      - text: "Cinema"
+        href: cinema.qmd
+      - text: "Ateliês"
+        href: atelies.qmd
+      - text: "Agenda"
+        href: agenda.qmd
+      - text: "Residências"
+        href: residencias.qmd
+      - text: "Galeria"
+        href: galeria.qmd
+      - text: "Contato"
+        href: contato.qmd
+  page-footer:
+    left: "FLAU Cultural · Rua das Artes, 123 · São Paulo"
+    right: "Instagram @flau.cultural · contato@flau.art"
+    background: transparent
+    border: none
 
 format:
   html:
-  theme: [cosmo, styles.css]
-mainfont: "Inter"
-fontsize: 1.1rem
-toc: false
-page-layout: full
-css: styles.css
-html-math-method: katex
-include-in-header:
-  - text: |
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Futura+PT:wght@400;700&family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    theme: cosmo
+    mainfont: "Inter"
+    fontsize: 1.1rem
+    toc: false
+    page-layout: full
+    css: styles.css
+    html-math-method: katex
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Futura+PT:wght@400;700&family=Inter:wght@300;400;700&display=swap" rel="stylesheet">

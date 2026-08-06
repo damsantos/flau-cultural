@@ -1,0 +1,24 @@
+---
+title: "FLAU Cultural"
+format: html
+page-layout: full
+css: styles.css
+---
+
+::: {.hero}
+
+  <div class="forma-circulo animacao-flutuar" style="top:20%; left:10%;"></div>
+  <div class="forma-triangulo animacao-girar" style="bottom:20%; right:15%;"></div>
+
+  <h1>FLAU</h1>
+  <h1 class="titulo-assimetrico" style="color: var(--vermelho);">Cultural</h1>
+
+  <p style="font-size: 1.5rem; max-width: 600px; margin-top: 1rem;">
+    Teatro · Cinema · Ateliês
+  </p>
+
+  <a href="teatro.html" class="btn" style="border: 2px solid var(--preto); padding: 1rem 3rem; margin-top: 2rem; font-weight: 700; text-decoration: none; color: var(--preto);">
+    Explorar
+  </a>
+
+:::

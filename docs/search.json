@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "teatro.html",
+    "href": "teatro.html",
+    "title": "Teatro",
+    "section": "",
+    "text": "Teatro\n\n\nProgramação\n\n\n&lt;p style=\"font-size: 1.6rem; font-weight: 400;\"&gt;&lt;span style=\"background: var(--amarelo); padding: 0.1rem 0.8rem;\"&gt;12 AGO&lt;/span&gt; · Hamlet – 20h&lt;/p&gt;\n&lt;p style=\"font-size: 1.6rem; font-weight: 400;\"&gt;&lt;span style=\"background: var(--amarelo); padding: 0.1rem 0.8rem;\"&gt;19 AGO&lt;/span&gt; · O Beijo no Asfalto – 19h&lt;/p&gt;\n&lt;p style=\"font-size: 1.6rem; font-weight: 400;\"&gt;&lt;span style=\"background: var(--amarelo); padding: 0.1rem 0.8rem;\"&gt;26 AGO&lt;/span&gt; · A Gaivota – 21h&lt;/p&gt;\n\n\n\n\n&lt;img src=\"images/teatro1.jpg\" alt=\"Cena de Hamlet\" style=\"width:100%;\"&gt;\n\n\n&lt;img src=\"images/teatro2.jpg\" alt=\"Cena de A Gaivota\" style=\"width:100%;\"&gt;\n\n\n&lt;h3&gt;Ingressos&lt;/h3&gt;\n&lt;p&gt;Em breve na bilheteria ou pelo site.&lt;/p&gt;\n&lt;p style=\"margin-top:1rem; font-size:0.9rem; border-top:1px solid var(--preto); padding-top:1rem;\"&gt;Apoio: FLAU Cultural&lt;/p&gt;"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "FLAU Cultural",
+    "section": "",
+    "text": "FLAU\n\n\nCultural\n\n\nTeatro · Cinema · Ateliês\n\n Explorar"
+  },
+  {
+    "objectID": "contato.html",
+    "href": "contato.html",
+    "title": "Contato",
+    "section": "",
+    "text": "Contato\n\n\nFale conosco\n\n\n&lt;p&gt;&lt;strong&gt;Endereço:&lt;/strong&gt; Rua das Artes, 123 – São Paulo&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Telefone:&lt;/strong&gt; (11) 99999-9999&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;E‑mail:&lt;/strong&gt; contato@flau.art&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Instagram:&lt;/strong&gt; @flau.cultural&lt;/p&gt;\n\n\n&lt;p style=\"font-size:1.2rem;\"&gt;Funcionamento:&lt;/p&gt;\n&lt;p&gt;Terça a domingo, das 10h às 22h.&lt;/p&gt;"
+  },
+  {
+    "objectID": "atelies.html",
+    "href": "atelies.html",
+    "title": "Ateliês",
+    "section": "",
+    "text": "Ateliês\n\n\nCerâmica · Gravura · Pintura\n\n\n&lt;p style=\"font-size: 1.6rem; font-weight: 400;\"&gt;🖌️ Cerâmica – quartas e sábados&lt;/p&gt;\n&lt;p style=\"font-size: 1.6rem; font-weight: 400;\"&gt;🎨 Gravura – terças e quintas&lt;/p&gt;\n&lt;p style=\"font-size: 1.6rem; font-weight: 400;\"&gt;🖼️ Pintura – às sextas&lt;/p&gt;\n\n\n\n\n&lt;img src=\"images/atelie1.jpg\" alt=\"Ateliê de cerâmica\" style=\"width:100%;\"&gt;\n\n\n&lt;img src=\"images/atelie2.jpg\" alt=\"Ateliê de gravura\" style=\"width:100%;\"&gt;\n\n\n&lt;h3&gt;Inscrições&lt;/h3&gt;\n&lt;p&gt;Vagas limitadas.&lt;/p&gt;\n&lt;p&gt;Envie e‑mail para &lt;strong&gt;atelies@flau.art&lt;/strong&gt;&lt;/p&gt;"
+  },
+  {
+    "objectID": "agenda.html",
+    "href": "agenda.html",
+    "title": "Agenda",
+    "section": "",
+    "text": "Agenda\n\n\nAgosto 2026\n\n\n&lt;div style=\"display: grid; grid-template-columns: 1fr 2fr 1fr; gap: 1rem; border-bottom: 2px solid var(--preto); padding: 0.8rem 0; font-weight: 700;\"&gt;\n  &lt;span&gt;Data&lt;/span&gt;&lt;span&gt;Evento&lt;/span&gt;&lt;span&gt;Local&lt;/span&gt;\n&lt;/div&gt;\n&lt;div style=\"display: grid; grid-template-columns: 1fr 2fr 1fr; gap: 1rem; padding: 0.8rem 0; border-bottom: 1px solid #ccc;\"&gt;\n  &lt;span&gt;12 AGO&lt;/span&gt;&lt;span&gt;Hamlet – Teatro&lt;/span&gt;&lt;span&gt;Palco FLAU&lt;/span&gt;\n&lt;/div&gt;\n&lt;div style=\"display: grid; grid-template-columns: 1fr 2fr 1fr; gap: 1rem; padding: 0.8rem 0; border-bottom: 1px solid #ccc;\"&gt;\n  &lt;span&gt;14 AGO&lt;/span&gt;&lt;span&gt;O Gabinete do Dr. Caligari – Cinema&lt;/span&gt;&lt;span&gt;Sala 2&lt;/span&gt;\n&lt;/div&gt;\n&lt;div style=\"display: grid; grid-template-columns: 1fr 2fr 1fr; gap: 1rem; padding: 0.8rem 0; border-bottom: 1px solid #ccc;\"&gt;\n  &lt;span&gt;19 AGO&lt;/span&gt;&lt;span&gt;O Beijo no Asfalto – Teatro&lt;/span&gt;&lt;span&gt;Palco FLAU&lt;/span&gt;\n&lt;/div&gt;\n&lt;div style=\"display: grid; grid-template-columns: 1fr 2fr 1fr; gap: 1rem; padding: 0.8rem 0; border-bottom: 1px solid #ccc;\"&gt;\n  &lt;span&gt;21 AGO&lt;/span&gt;&lt;span&gt;Metrópolis – Cinema&lt;/span&gt;&lt;span&gt;Sala 2&lt;/span&gt;\n&lt;/div&gt;\n&lt;div style=\"display: grid; grid-template-columns: 1fr 2fr 1fr; gap: 1rem; padding: 0.8rem 0;\"&gt;\n  &lt;span&gt;26 AGO&lt;/span&gt;&lt;span&gt;A Gaivota – Teatro&lt;/span&gt;&lt;span&gt;Palco FLAU&lt;/span&gt;\n&lt;/div&gt;"
+  },
+  {
+    "objectID": "cinema.html",
+    "href": "cinema.html",
+    "title": "Cinema",
+    "section": "",
+    "text": "Cinema\n\n\nMostras e sessões\n\n\n&lt;p style=\"font-size: 1.6rem; font-weight: 400;\"&gt;&lt;span style=\"background: var(--vermelho); color: var(--branco); padding: 0.1rem 0.8rem;\"&gt;14 AGO&lt;/span&gt; · O Gabinete do Dr. Caligari – 18h&lt;/p&gt;\n&lt;p style=\"font-size: 1.6rem; font-weight: 400;\"&gt;&lt;span style=\"background: var(--vermelho); color: var(--branco); padding: 0.1rem 0.8rem;\"&gt;21 AGO&lt;/span&gt; · Metrópolis – 20h&lt;/p&gt;\n&lt;p style=\"font-size: 1.6rem; font-weight: 400;\"&gt;&lt;span style=\"background: var(--vermelho); color: var(--branco); padding: 0.1rem 0.8rem;\"&gt;28 AGO&lt;/span&gt; · O Acossado – 19h&lt;/p&gt;\n\n\n\n\n&lt;img src=\"images/cinema1.jpg\" alt=\"Cena de Metrópolis\" style=\"width:100%;\"&gt;\n\n\n&lt;img src=\"images/cinema2.jpg\" alt=\"Cena de O Acossado\" style=\"width:100%;\"&gt;\n\n\n&lt;h3&gt;Ingressos&lt;/h3&gt;\n&lt;p&gt;R$ 10 (inteira) · R$ 5 (meia)&lt;/p&gt;\n&lt;p&gt;Venda na hora.&lt;/p&gt;"
+  },
+  {
+    "objectID": "galeria.html",
+    "href": "galeria.html",
+    "title": "Galeria",
+    "section": "",
+    "text": "Galeria\n\n\nImagens do espaço\n\n\n\n\n&lt;img src=\"images/galeria1.jpg\" alt=\"Espaço FLAU\" style=\"width:100%;\"&gt;\n\n\n&lt;img src=\"images/galeria2.jpg\" alt=\"Exposição\" style=\"width:100%;\"&gt;\n\n\n&lt;img src=\"images/galeria3.jpg\" alt=\"Ateliê\" style=\"width:100%;\"&gt;\n\n\n&lt;img src=\"images/galeria4.jpg\" alt=\"Palco\" style=\"width:100%;\"&gt;\n\n\n&lt;img src=\"images/galeria5.jpg\" alt=\"Cinema\" style=\"width:100%;\"&gt;\n\n\n&lt;img src=\"images/galeria6.jpg\" alt=\"Cerâmica\" style=\"width:100%;\"&gt;"
+  },
+  {
+    "objectID": "residencias.html",
+    "href": "residencias.html",
+    "title": "Residências Artísticas",
+    "section": "",
+    "text": "Residências\n\n\nPrograma de criação\n\n\n&lt;p style=\"font-size:1.3rem;\"&gt;O FLAU Cultural oferece residências para artistas de teatro, cinema e artes visuais. Duração de 3 meses, com espaço e suporte técnico.&lt;/p&gt;\n&lt;p style=\"font-size:1.1rem; margin-top:1.5rem;\"&gt;Inscrições abertas até 30 de setembro.&lt;/p&gt;\n&lt;a href=\"contato.html\" style=\"display:inline-block; margin-top:2rem; border:2px solid var(--preto); padding:0.8rem 2.5rem; text-decoration:none; color:var(--preto); font-weight:700;\"&gt;Inscreva‑se&lt;/a&gt;"
+  }
+]
