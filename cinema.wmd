@@ -1,0 +1,53 @@
+---
+title: "Cinema"
+format: html
+page-layout: full
+css: styles.css
+page-class: pagina-cinema
+---
+
+:::::: hero
+::: {.forma-circulo .animacao-girar style="top:10%; right:15%; width:180px; height:180px; background: var(--azul); opacity:0.1;"}
+:::
+
+::: {.linha-diagonal style="bottom:20%; left:5%;"}
+:::
+
+<h1>Cinema</h1>
+
+<p class="sub" style="color: var(--azul);">
+
+Mostras e sessões
+
+</p>
+
+::: {style="margin-top: 2rem; max-width: 700px;"}
+```         
+<p style="font-size: 1.6rem; font-weight: 400;"><span style="background: var(--vermelho); color: var(--branco); padding: 0.1rem 0.8rem;">14 AGO</span> · O Gabinete do Dr. Caligari – 18h</p>
+<p style="font-size: 1.6rem; font-weight: 400;"><span style="background: var(--vermelho); color: var(--branco); padding: 0.1rem 0.8rem;">21 AGO</span> · Metrópolis – 20h</p>
+<p style="font-size: 1.6rem; font-weight: 400;"><span style="background: var(--vermelho); color: var(--branco); padding: 0.1rem 0.8rem;">28 AGO</span> · O Acossado – 19h</p>
+```
+:::
+::::::
+
+:::::: container-grid
+::: moldura
+```         
+<img src="images/cinema1.jpg" alt="Cena de Metrópolis" style="width:100%;">
+```
+:::
+
+::: {.moldura-com-circulo style="grid-column: 2 / 3;"}
+```         
+<img src="images/cinema2.jpg" alt="Cena de O Acossado" style="width:100%;">
+```
+:::
+
+::: {style="grid-column: 3 / 4; padding: 1rem;"}
+```         
+<h3>Ingressos</h3>
+<p>R$ 10 (inteira) · R$ 5 (meia)</p>
+<p>Venda na hora.</p>
+```
+:::
+::::::

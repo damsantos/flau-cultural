@@ -1,0 +1,57 @@
+---
+title: "Galeria"
+format: html
+page-layout: full
+css: styles.css
+---
+
+:::: {.hero style="min-height:40vh; padding:2rem 4rem;"}
+::: {.forma-triangulo .animacao-girar style="top:10%; right:5%; border-bottom-color: var(--vermelho);"}
+:::
+
+<h1>Galeria</h1>
+
+<p class="sub" style="color: var(--verde);">
+
+Imagens do espaço
+
+</p>
+::::
+
+::::::::: {.container-grid style="grid-template-columns: repeat(3, 1fr); gap:2rem;"}
+::: moldura
+```         
+<img src="images/galeria1.jpg" alt="Espaço FLAU" style="width:100%;">
+```
+:::
+
+::: moldura-com-circulo
+```         
+<img src="images/galeria2.jpg" alt="Exposição" style="width:100%;">
+```
+:::
+
+::: {.moldura style="transform: rotate(1deg);"}
+```         
+<img src="images/galeria3.jpg" alt="Ateliê" style="width:100%;">
+```
+:::
+
+::: {.moldura-com-circulo style="grid-column: 1 / 2;"}
+```         
+<img src="images/galeria4.jpg" alt="Palco" style="width:100%;">
+```
+:::
+
+::: {.moldura style="grid-column: 2 / 3;"}
+```         
+<img src="images/galeria5.jpg" alt="Cinema" style="width:100%;">
+```
+:::
+
+::: {.moldura-com-circulo style="grid-column: 3 / 4;"}
+```         
+<img src="images/galeria6.jpg" alt="Cerâmica" style="width:100%;">
+```
+:::
+:::::::::

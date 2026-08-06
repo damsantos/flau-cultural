@@ -1,0 +1,43 @@
+---
+title: "Agenda"
+format: html
+page-layout: full
+css: styles.css
+page-class: pagina-agenda
+---
+
+::::: hero
+::: {.forma-circulo style="top:5%; right:20%; width:250px; height:250px; background: var(--amarelo); opacity:0.08;"}
+:::
+
+<h1>Agenda</h1>
+
+<p class="sub" style="color: var(--amarelo);">
+
+Agosto 2026
+
+</p>
+
+::: {style="margin-top: 2rem; width:100%; max-width:800px;"}
+```         
+<div style="display: grid; grid-template-columns: 1fr 2fr 1fr; gap: 1rem; border-bottom: 2px solid var(--preto); padding: 0.8rem 0; font-weight: 700;">
+  <span>Data</span><span>Evento</span><span>Local</span>
+</div>
+<div style="display: grid; grid-template-columns: 1fr 2fr 1fr; gap: 1rem; padding: 0.8rem 0; border-bottom: 1px solid #ccc;">
+  <span>12 AGO</span><span>Hamlet – Teatro</span><span>Palco FLAU</span>
+</div>
+<div style="display: grid; grid-template-columns: 1fr 2fr 1fr; gap: 1rem; padding: 0.8rem 0; border-bottom: 1px solid #ccc;">
+  <span>14 AGO</span><span>O Gabinete do Dr. Caligari – Cinema</span><span>Sala 2</span>
+</div>
+<div style="display: grid; grid-template-columns: 1fr 2fr 1fr; gap: 1rem; padding: 0.8rem 0; border-bottom: 1px solid #ccc;">
+  <span>19 AGO</span><span>O Beijo no Asfalto – Teatro</span><span>Palco FLAU</span>
+</div>
+<div style="display: grid; grid-template-columns: 1fr 2fr 1fr; gap: 1rem; padding: 0.8rem 0; border-bottom: 1px solid #ccc;">
+  <span>21 AGO</span><span>Metrópolis – Cinema</span><span>Sala 2</span>
+</div>
+<div style="display: grid; grid-template-columns: 1fr 2fr 1fr; gap: 1rem; padding: 0.8rem 0;">
+  <span>26 AGO</span><span>A Gaivota – Teatro</span><span>Palco FLAU</span>
+</div>
+```
+:::
+:::::

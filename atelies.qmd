@@ -1,0 +1,53 @@
+---
+title: "Ateliês"
+format: html
+page-layout: full
+css: styles.css
+page-class: pagina-atelies
+---
+
+:::::: hero
+::: {.forma-circulo .animacao-flutuar style="bottom:5%; left:15%; width:100px; height:100px; background: var(--verde); opacity:0.15;"}
+:::
+
+::: {.forma-triangulo .animacao-girar style="top:20%; right:10%; border-bottom-color: var(--amarelo);"}
+:::
+
+<h1>Ateliês</h1>
+
+<p class="sub" style="color: var(--verde);">
+
+Cerâmica · Gravura · Pintura
+
+</p>
+
+::: {style="margin-top: 2rem; max-width: 700px;"}
+```         
+<p style="font-size: 1.6rem; font-weight: 400;">🖌️ Cerâmica – quartas e sábados</p>
+<p style="font-size: 1.6rem; font-weight: 400;">🎨 Gravura – terças e quintas</p>
+<p style="font-size: 1.6rem; font-weight: 400;">🖼️ Pintura – às sextas</p>
+```
+:::
+::::::
+
+:::::: container-grid
+::: moldura
+```         
+<img src="images/atelie1.jpg" alt="Ateliê de cerâmica" style="width:100%;">
+```
+:::
+
+::: {.moldura-com-circulo style="grid-column: 2 / 3;"}
+```         
+<img src="images/atelie2.jpg" alt="Ateliê de gravura" style="width:100%;">
+```
+:::
+
+::: {style="grid-column: 3 / 4; padding: 1rem;"}
+```         
+<h3>Inscrições</h3>
+<p>Vagas limitadas.</p>
+<p>Envie e‑mail para <strong>atelies@flau.art</strong></p>
+```
+:::
+::::::

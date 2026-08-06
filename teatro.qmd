@@ -1,0 +1,53 @@
+---
+title: "Teatro"
+format: html
+page-layout: full
+css: styles.css
+page-class: pagina-teatro
+---
+
+:::::: hero
+::: {.forma-circulo .animacao-flutuar style="bottom:10%; right:5%; width:160px; height:160px; background: var(--vermelho); opacity:0.12;"}
+:::
+
+::: {.forma-triangulo style="top:15%; left:5%; border-bottom-color: var(--azul);"}
+:::
+
+<h1>Teatro</h1>
+
+<p class="sub" style="color: var(--vermelho);">
+
+Programação
+
+</p>
+
+::: {style="margin-top: 2rem; max-width: 700px; border-left: 6px solid var(--azul); padding-left: 2rem;"}
+```         
+<p style="font-size: 1.6rem; font-weight: 400;"><span style="background: var(--amarelo); padding: 0.1rem 0.8rem;">12 AGO</span> · Hamlet – 20h</p>
+<p style="font-size: 1.6rem; font-weight: 400;"><span style="background: var(--amarelo); padding: 0.1rem 0.8rem;">19 AGO</span> · O Beijo no Asfalto – 19h</p>
+<p style="font-size: 1.6rem; font-weight: 400;"><span style="background: var(--amarelo); padding: 0.1rem 0.8rem;">26 AGO</span> · A Gaivota – 21h</p>
+```
+:::
+::::::
+
+:::::: container-grid
+::: moldura
+```         
+<img src="images/teatro1.jpg" alt="Cena de Hamlet" style="width:100%;">
+```
+:::
+
+::: {.moldura-com-circulo style="grid-column: 2 / 3;"}
+```         
+<img src="images/teatro2.jpg" alt="Cena de A Gaivota" style="width:100%;">
+```
+:::
+
+::: {style="grid-column: 3 / 4; padding: 1rem;"}
+```         
+<h3>Ingressos</h3>
+<p>Em breve na bilheteria ou pelo site.</p>
+<p style="margin-top:1rem; font-size:0.9rem; border-top:1px solid var(--preto); padding-top:1rem;">Apoio: FLAU Cultural</p>
+```
+:::
+::::::

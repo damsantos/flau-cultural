@@ -1,0 +1,35 @@
+---
+title: "Contato"
+format: html
+page-layout: full
+css: styles.css
+---
+
+:::::: {.hero style="min-height:60vh;"}
+::: {.forma-circulo .animacao-flutuar style="top:20%; right:10%; width:100px; height:100px; background: var(--amarelo); opacity:0.12;"}
+:::
+
+<h1>Contato</h1>
+
+<p class="sub" style="color: var(--azul);">
+
+Fale conosco
+
+</p>
+
+::: {style="max-width:600px; margin-top:2rem;"}
+```         
+<p><strong>Endereço:</strong> Rua das Artes, 123 – São Paulo</p>
+<p><strong>Telefone:</strong> (11) 99999-9999</p>
+<p><strong>E‑mail:</strong> contato@flau.art</p>
+<p><strong>Instagram:</strong> @flau.cultural</p>
+```
+:::
+
+::: {style="margin-top:3rem; border-top:2px solid var(--preto); padding-top:2rem; max-width:500px;"}
+```         
+<p style="font-size:1.2rem;">Funcionamento:</p>
+<p>Terça a domingo, das 10h às 22h.</p>
+```
+:::
+::::::
